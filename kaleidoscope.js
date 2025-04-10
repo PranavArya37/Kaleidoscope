@@ -13,7 +13,7 @@ let speedToWeightFactor = 25; // Higher means speed affects weight more
 // --- Global Variables ---
 let angle; // Angle between symmetry segments
 let currentHue = 0; // Starting hue for cycling color
-let saveButton;
+// let saveButton;
 
 function setup() {
   // Create canvas filling the window
