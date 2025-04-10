@@ -33,13 +33,13 @@ function setup() {
   angle = TWO_PI / symmetry;
 
   // Create a button to save the canvas image
-  saveButton = createButton('Save Canvas');
-  saveButton.position(15, 15); // Position it slightly offset
-  saveButton.style('padding', '8px 15px'); // Add some padding
-  saveButton.style('border-radius', '5px'); // Rounded corners
-  saveButton.style('border', 'none');
-  saveButton.style('cursor', 'pointer');
-  saveButton.mousePressed(saveToFile); // Attach the save function
+  //saveButton = createButton('Save Canvas');
+  //saveButton.position(15, 15); // Position it slightly offset
+  //saveButton.style('padding', '8px 15px'); // Add some padding
+  //saveButton.style('border-radius', '5px'); // Rounded corners
+  //saveButton.style('border', 'none');
+  //saveButton.style('cursor', 'pointer');
+  //saveButton.mousePressed(saveToFile); // Attach the save function
 
   print("p5.js Kaleidoscope Initialized.");
   print(`Symmetry: ${symmetry}, Mirroring: ${enableMirroring}, Fading: ${enableFadingTrails}`);
@@ -116,10 +116,10 @@ function draw() {
 // --- Utility Functions ---
 
 // Function to save the current canvas frame as a PNG file
-function saveToFile() {
-  saveCanvas('kaleidoscope_pattern', 'png');
-  print("Canvas saved as 'kaleidoscope_pattern.png'");
-}
+// function saveToFile() {
+//   saveCanvas('kaleidoscope_pattern', 'png');
+//   print("Canvas saved as 'kaleidoscope_pattern.png'");
+// }
 
 // Function to handle window resizing
 function windowResized() {
